@@ -24,6 +24,7 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Run a one-line script
-        run:  "hello, welcome Anju"
+      - name: Run a multi-line script
+        run:  echo "hello, welcome Anju"
+        
         
