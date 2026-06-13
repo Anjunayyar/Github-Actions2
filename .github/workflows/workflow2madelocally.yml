@@ -24,13 +24,13 @@ jobs:
         run: echo "hello, welcome Anju"
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run:  echo "hope it worked, anju is testing the workflow"
+        run:  echo "hope it worked, anju is testing the workflow; hope it worked, anju is testing the workflow, this is the feature test 3"
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Run a one-line script
         run: echo "lets test the second workfloww"
-      - name: Run a multi-line script
+      - name: Run a multi-line scriptnew feature tes 3 
         run:  echo "hope it worked, anju is testing the workflow"     
         
